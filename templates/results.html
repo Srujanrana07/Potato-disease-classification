@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+    <script src="{{ url_for('static', filename='script1.js') }}" defer></script>
+</head>
+<body>
+    <!-- <div class="container">
+        <h1>Prediction Results</h1>
+        <p>The predicted disease is: <strong>{{ prediction }}</strong></p>
+        <a href="{{ url_for('index') }}"> >image</a>
+    </div>  -->
+    <div class="background">
+        <img src="{{ url_for('static', filename='image\potatoes-411975_1280.jpg') }}" alt="Blurred Potato Image">
+        
+    </div>
+    
+    
+    <div class="dashboard">
+        <header class="header">
+            <h1>Potato {{ prediction }}</h1>
+        </header>
+
+        <section class="content">
+            {% if prediction == 'Late Blight' %}
+            <!-- Fungicide Information Section -->
+                <div class="medicine-info">
+                    <img src="{{ url_for('static', filename='image\late blight.jpg') }}" alt="Fungicidals">
+                    <p id="medicine-name">Medicine 1</p>
+                    <p id="medicine-dose">Dose: 10ml/L</p>
+                    <p id="medicine-duration">Duration: 10 days</p>
+                </div>
+
+                <!-- Late Blight Information Section -->
+                <div class="info-section">
+                    <h2>Late Blight</h2>
+                    <p>Late blight, caused by the <em>Phytophthora infestans</em> fungus, is a devastating disease that can quickly destroy potato crops.</p>
+
+                    <h3>Prevention</h3>
+                    <ul>
+                        <li><strong>Resistant Varieties:</strong> Plant varieties resistant or tolerant to late blight. 
+                            <a href="https://www.dobies.co.uk" target="_blank">Learn more about resistant varieties.</a>
+                        </li>
+                        <li><strong>Crop Rotation:</strong> Rotate potato crops with non-host plants to reduce soil pathogens.</li>
+                        <li><strong>Field Sanitation:</strong> Remove and destroy infected plant debris to reduce inoculum sources.</li>
+                        <li><strong>Irrigation Management:</strong> Water potatoes early in the day for quick drying.</li>
+                    </ul>
+
+                    <h3>Control</h3>
+                    <p>Apply fungicides at regular intervals, especially in humid conditions.</p>
+                    <ul>
+                        <li>Common fungicides include:</li>
+                        <ul>
+                            <li>Copper-based fungicides (e.g., Bordeaux mixture)</li>
+                            <li>Mancozeb (broad-spectrum fungicide)</li>
+                            <li>Ridomil Gold (systemic fungicide)</li>
+                            <li>Metalaxyl (systemic fungicide)</li>
+                        </ul>
+                        <li><strong>Important:</strong> Follow label instructions for application. 
+                            <a href="https://www.amazon.in" target="_blank">Find fungicide information online.</a>
+                        </li>
+                    </ul>
+                </div>
+            {% elif prediction == 'Early Blight' %}
+            <!-- Early Blight Information Section -->
+                <div class="medicine-info">
+                    <img src="{{ url_for('static', filename='image\Early blight.jpg') }}" alt="Fungicidals">
+                    <p id="medicine-name">Medicine 1</p>
+                    <p id="medicine-dose">Dose: 10ml/L</p>
+                    <p id="medicine-duration">Duration: 10 days</p>
+                </div>
+                <div class="info-section">
+                    <h2>Early Blight</h2>
+                    <p>Early blight, caused by the <em>*Alternaria solani</em> fungus, is a devastating disease that can quickly destroy potato crops.</p>
+
+                    <h3>Prevention</h3>
+                    <ul>
+                        <li><strong>Crop Rotation:</strong> Rotate your potato crop with non-host crops like corn, wheat, or beans to reduce the build-up of the fungus in the soil.</li>
+                        <li><strong>Resistant Varieties:</strong> Plant potato varieties that are resistant to early blight.</li>
+                        <li><strong>Good Hygiene:</strong> Remove and destroy infected plant debris to reduce the source of infection for the next season.</li>
+                        <li><strong>Proper Irrigation:</strong> Avoid overhead irrigation, as wet leaves create ideal conditions for fungal growth. Use drip irrigation or water early in the day to allow the foliage to dry quickly.</li>
+                        <li><strong>Adequate Spacing:</strong> Plant potatoes with adequate spacing to allow for good air circulation, which helps reduce fungal growth.</li>
+                    </ul>
+
+                    <h3>Treatment:</h3>
+                    <p>If you notice early signs of early blight, such as small, dark brown spots on leaves, you can use fungicides to control the disease. Here are some common fungicides used for early blight control:</p>
+                        <ul>
+                            <li><strong>Chlorothalonil:</strong> A broad-spectrum fungicide that can be used to control a variety of fungal diseases, including early blight.</li>
+                            <li><strong>Mancozeb:</strong> Another broad-spectrum fungicide that is effective against early blight.</li>
+                            <li><strong>Copper-based fungicides:</strong> These fungicides can be used to control early blight, but they may not be as effective as other options.</li>
+                        </ul>
+
+                </div>
+            {% elif prediction == 'Healthy' %}
+                <!-- Neutral Prediction -->
+                <div class="safe-info">
+                    <h2>Safe</h2>
+                    <p>No signs of blight detected. The crop is currently safe.</p>
+                </div>
+            {% endif %}
+
+        </section>
+    </div>
+
+</body>
+</html>

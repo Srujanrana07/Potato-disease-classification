@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+  }
+  
+  #camera-app {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  #video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .button-container {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  .button-icon {
+    width: 48px;
+    height: 48px;
+    fill: #fff;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .button-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  #capture-btn {
+    margin: 0 auto;
+  }
+  
