@@ -5,7 +5,7 @@ from datetime import datetime
 import joblib
 import numpy as np
 import cv2
-from io import BytesIO
+
 
 app = Flask(__name__)
 
@@ -15,7 +15,7 @@ if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
 
 # Load your trained model (replace 'your_model.joblib' with your actual model filename)
-model = joblib.load('..\\model.joblib')
+model = joblib.load('models/model.joblib')
 
 @app.route('/')
 def index():
