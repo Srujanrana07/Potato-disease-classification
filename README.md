@@ -30,12 +30,6 @@ The `PlantVillage` directory contains the following 3 subdirectories:
 
 ---
 
-## Results and web interface 
-![Results and web interface](https://github.com/Srujanrana07/Potato-disease-classification/blob/main/static/image/Screenshot%202025-01-01%20144600.png)
-![Results and web interface](https://github.com/Srujanrana07/Potato-disease-classification/blob/main/static/image/Screenshot%202025-01-01%20144621.png)
-![Results and web interface](https://github.com/Srujanrana07/Potato-disease-classification/blob/main/static/image/Screenshot%202025-01-01%20144753.png)
-
-
 ## 🚀 Features
 
 - **Real-time Disease Detection:** Capture images via a camera feed for immediate disease classification.
@@ -58,6 +52,12 @@ The `PlantVillage` directory contains the following 3 subdirectories:
 ├── app.py               # Main Flask app
 └── README.md            # Project documentation
 ```
+---
+## Results and web interface 
+![Results and web interface](https://github.com/Srujanrana07/Potato-disease-classification/blob/main/static/image/Screenshot%202025-01-01%20144600.png)
+![Results and web interface](https://github.com/Srujanrana07/Potato-disease-classification/blob/main/static/image/Screenshot%202025-01-01%20144621.png)
+![Results and web interface](https://github.com/Srujanrana07/Potato-disease-classification/blob/main/static/image/Screenshot%202025-01-01%20144753.png)
+
 ---
 ## 💻 Technologies Used
 
