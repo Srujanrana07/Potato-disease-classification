@@ -34,7 +34,7 @@ A web-based application to classify potato leaf diseases using a deep learning m
 ├── requirements.txt     # Python dependencies
 ├── app.py               # Main Flask app
 └── README.md            # Project documentation
-
+```
 ---
 ## 💻 Technologies Used
 
