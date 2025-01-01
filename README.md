@@ -20,11 +20,10 @@ A web-based application to classify potato leaf diseases using a deep learning m
 ```plaintext
 📦 potato-disease-classification
 ├── app/
-│   ├── static/          # Static files (CSS, JS, images)
-│   ├── templates/       # HTML templates
-│   ├── routes.py        # Flask routes
-│   ├── model_loader.py  # Script to fetch the model from GCP
-│   └── camera_feed.py   # Camera integration for real-time images
+│   ├── static/          # Static files (CSS, JS, images)       
+│   ├── model/
+│   │   └── Gcp.py       #model routs for fetching form gcp bucket
+│   └── templates/       # HTML templates
 ├── requirements.txt     # Python dependencies
 ├── app.py               # Main Flask app
 └── README.md            # Project documentation
