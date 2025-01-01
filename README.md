@@ -11,6 +11,24 @@ This project aims to automate the classification of potato leaf diseases using d
 ![Potato Disease Classification Logo](https://github.com/Srujanrana07/Potato-disease-classification/blob/main/static/image/potato%20classiifier.png)
 
 ---
+## About Dataset
+
+This dataset contains high-resolution images of potato plants exhibiting various diseases, including **early blight**, **late blight**, and **healthy leaves**. It is curated to aid in the development and testing of image recognition models for accurate disease detection and classification, promoting advancements in agricultural diagnostics.
+
+### About this Directory
+The dataset consists of the directory `plant_village`, which contains three subdirectories:
+1. `early_blight`: Images of potato plants with early blight disease.
+2. `late_blight`: Images of potato plants with late blight disease.
+3. `healthy_plant`: Images of healthy potato plants.
+
+### Directory Structure
+
+The `PlantVillage` directory contains the following 3 subdirectories:
+- `early_blight`
+- `late_blight`
+- `healthy_plant`
+
+---
 
 ## Results and web interface 
 ![Results and web interface](https://github.com/Srujanrana07/Potato-disease-classification/blob/main/static/image/Screenshot%202025-01-01%20144600.png)
