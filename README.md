@@ -34,3 +34,26 @@ A web-based application to classify potato leaf diseases using a deep learning m
 ├── requirements.txt     # Python dependencies
 ├── app.py               # Main Flask app
 └── README.md            # Project documentation
+
+---
+## 💻 Technologies Used
+
+- **Framework**: Python, Flask
+- **Deep Learning Model**: Convolutional Neural Networks (CNN)
+- **Cloud Storage**: Google Cloud Bucket
+- **Frontend**: HTML, CSS, JavaScript
+
+---
+
+## 📸 How It Works
+
+1. **Camera Integration**: Capture images of potato leaves directly via the web interface.
+2. **Image Processing**: The CNN model classifies the images into disease categories based on the training data.
+3. **Result Display**: The classification results are displayed with actionable insights, including the predicted disease and advice for handling it.
+---
+## 🌐 [Live Demo](http://your-live-demo-link.com)
+---
+Made with ❤️ by [Srujan Rana](https://github.com/Srujanrana07.git)
+
+
+
