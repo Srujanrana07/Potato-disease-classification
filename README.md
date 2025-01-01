@@ -53,7 +53,8 @@ A web-based application to classify potato leaf diseases using a deep learning m
 ---
 ## 🌐 [Live Demo](https://potato-disease-classification-srujanrana.onrender.com/)
 ---
-Made with ❤️ by [Srujan Rana](https://github.com/Srujanrana07.git)
+## Contributers
+[*Srujan Rana**](https://github.com/Srujanrana07.git)
 
 
 
