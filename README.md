@@ -7,6 +7,9 @@ A web-based application to classify potato leaf diseases using a deep learning m
 
 ---
 
+## Results and web interface 
+![Potato Disease Classification Logo](https://github.com/Srujanrana07/Potato-disease-classification/blob/main/static/image/Screenshot%202025-01-01%20144600.png,https://github.com/Srujanrana07/Potato-disease-classification/blob/main/static/image/Screenshot%202025-01-01%20144621.png,https://github.com/Srujanrana07/Potato-disease-classification/blob/main/static/image/Screenshot%202025-01-01%20144753.png)
+
 ## 🚀 Features
 
 - **Real-time Disease Detection:** Capture images via a camera feed for immediate disease classification.
