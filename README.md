@@ -1,6 +1,6 @@
 # Potato Disease Classification with Flask and Google Cloud
 
-![Potato Disease Classification Logo]([https://via.placeholder.com/300?text=Potato+Disease+Classification](https://github.com/Srujanrana07/Potato-disease-classification.git))
+![Potato Disease Classification Logo](https://via.placeholder.com/300?text=Potato+Disease+Classification)
 
 A web-based application to classify potato leaf diseases using a deep learning model (CNN). The application achieves **90% training accuracy** and **70% operational efficiency** for real-life image classification. The project utilizes Flask for deployment, Google Cloud Storage for model storage, and a real-time camera feed for image capture.
 
