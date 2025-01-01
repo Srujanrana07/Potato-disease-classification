@@ -3,6 +3,11 @@
 A web-based application to classify potato leaf diseases using a deep learning model (CNN). The application achieves **90% training accuracy** and **70% operational efficiency** for real-life image classification. The project utilizes Flask for deployment, Google Cloud Storage for model storage, and a real-time camera feed for image capture.
 
 ---
+## Project Overview
+
+This project aims to automate the classification of potato leaf diseases using deep learning techniques. By leveraging a **Convolutional Neural Network (CNN)**, the system classifies potato leaf images into categories such as **Healthy**, **Early Blight**, **Late Blight**, and other common potato diseases. The model is deployed using the **Flask** web framework, providing a simple and user-friendly interface for real-time interaction. A camera feed is integrated to capture live images of potato leaves, which are then processed by the trained CNN model to classify them accurately. The model is stored on **Google Cloud Storage**, ensuring scalability and easy access. With a **training accuracy of 90%** and an operational efficiency of **70%** in real-time image classification, this system provides a valuable tool for farmers to quickly identify diseases in potato crops and take timely corrective actions.
+
+---
 ![Potato Disease Classification Logo](https://github.com/Srujanrana07/Potato-disease-classification/blob/main/static/image/potato%20classiifier.png)
 
 ---
