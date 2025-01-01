@@ -51,7 +51,7 @@ A web-based application to classify potato leaf diseases using a deep learning m
 2. **Image Processing**: The CNN model classifies the images into disease categories based on the training data.
 3. **Result Display**: The classification results are displayed with actionable insights, including the predicted disease and advice for handling it.
 ---
-## 🌐 [Live Demo](http://your-live-demo-link.com)
+## 🌐 [Live Demo](https://potato-disease-classification-srujanrana.onrender.com/)
 ---
 Made with ❤️ by [Srujan Rana](https://github.com/Srujanrana07.git)
 
